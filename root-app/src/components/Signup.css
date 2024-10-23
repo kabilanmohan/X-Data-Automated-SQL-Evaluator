@@ -1,0 +1,31 @@
+.Signup-card {
+    background-color: #eeeeee !important;
+    border: 1px solid #ddd !important;
+    border-radius: 8px !important;
+    padding: 20px !important;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1) !important;
+    max-width: 400px !important;
+    margin: auto auto !important;
+}
+
+
+.Signup-button {
+    background-color: #535252 !important;
+    color: white !important;
+    border: none !important;
+    padding: 12px 20px !important;
+    text-align: center !important;
+    text-decoration: none !important;
+    display: inline-block !important;
+    font-size: 16px !important;
+    margin-top: 10px !important;
+    cursor: pointer !important;
+    border-radius: 4px !important;
+    transition: background-color 0.3s !important;
+}
+
+.Signup-button:hover {
+    background-color: #228a27 !important;
+}
+
+/* Additional styles can be added as per your design preferences */

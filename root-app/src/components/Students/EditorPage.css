@@ -1,0 +1,118 @@
+.EditorPage {
+    text-align: center;
+    background-color: #282c34;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    color: white;
+  }
+  
+  .EditorPage-header {
+    padding: 20px;
+  }
+  
+  .EditorPage-main {
+    display: flex;
+    flex: 1;
+    padding: 20px;
+  }
+  
+  .editor-container {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    margin-right: 20px;
+  }
+  
+  .editor-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #21252b;
+    padding: 10px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+  }
+  
+  .editor-header h3 {
+    margin: 0;
+  }
+  
+  #editor {
+    height: 70vh;
+    border: 1px solid #444;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+  }
+  
+  .run-button {
+    padding: 8px 16px;
+    background-color: #61dafb;
+    color: #282c34;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: bold;
+  }
+  
+  .run-button:hover {
+    background-color: #4fa8d5;
+  }
+  
+  .result-container {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  
+  .result-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+  }
+  
+  .result-table th, .result-table td {
+    border: 1px solid #444;
+    padding: 8px;
+    text-align: left;
+  }
+  
+  .result-table th {
+    background-color: #3a3f4b;
+  }
+  
+  .result-table tr:nth-child(even) {
+    background-color: #32363f;
+  }
+  
+  .error {
+    color: #ff6b6b;
+    text-align: left;
+    white-space: pre-wrap;
+    word-break: break-word;
+  }
+  
+  /* Add these styles to adjust CodeMirror editor */
+  .cm-editor {
+    height: 100%;
+  }
+  
+  .cm-editor .cm-scroller {
+    font-family: monospace;
+    line-height: 1.4;
+    text-align: left;
+  }
+  
+  .cm-editor .cm-content {
+    white-space: pre-wrap;
+    word-break: normal;
+    word-wrap: break-word;
+    padding: 10px;
+  }
+  
+  /* This will set the background color of the editor to match the first line */
+  .cm-editor, .cm-editor .cm-gutters {
+    background-color: #282c34 !important;
+  }
+  
