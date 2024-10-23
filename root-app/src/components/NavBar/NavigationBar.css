@@ -1,0 +1,12 @@
+.navBar1{
+    /* background-color: black; */
+    /* color: white; */
+    font-weight: bold;
+    display: block;
+    padding-bottom: 100px;
+}
+.navBar1 .navbar {
+    background-color: black !important;
+  }
+  
+  
